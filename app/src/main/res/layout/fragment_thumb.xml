@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matah.sligro_app.ThumbFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+</FrameLayout>

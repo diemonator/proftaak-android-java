@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "36601158997",
+    "firebase_url": "https://android-team-project-c4ba3.firebaseio.com",
+    "project_id": "android-team-project-c4ba3",
+    "storage_bucket": "android-team-project-c4ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36601158997:android:8596771c9c92d701",
+        "android_client_info": {
+          "package_name": "com.example.matah.sligro_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36601158997-88tr57suui6tu8bmm3fh2ltctcn1da6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matah.sligro_app",
+            "certificate_hash": "e5772ca554a32b77a2946c6a4e3fff96892ce8dd"
+          }
+        },
+        {
+          "client_id": "36601158997-pom0dl2ps8t6qnh6q4htlkvjruv9u4vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3S5wSvcQdwDINEPYxWFmrMbdpPJcgX7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36601158997-pom0dl2ps8t6qnh6q4htlkvjruv9u4vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

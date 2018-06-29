@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sligro-App</string>
+
+    //Search Strings
+    <string name="search_titile">Search...</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="train">Sligro Educational and Training app</string>
+
+
+    //Font Strings
+    <string name="action_settings">Settings</string>
+    <string name="fa_icon_areachart">&#xf1fe;</string>
+    <string name="fa_icon_piechart">&#xf200;</string>
+    <string name="fa_icon_linechart">&#xf201;</string>
+    <string name="fa_icon_search">&#xf002;</string>
+    <string name="fa_icon_bell">&#xf0a2;</string>
+    <string name="fa_icon_bell_alt">&#xf0f3;</string>
+    <string name="fa_icon_star_empty">&#xf006;</string>
+    <string name="fa_icon_star">&#xf005;</string>
+    <string name="fa_icon_slash">&#xd8;</string>
+    <string name="fa_icon_sign_in">&#xf090;</string>
+    <string name="fa_icon_sign_out">&#xf08b;</string>
+    <string name="fa_icon_github_sign">&#xf092;</string>
+    <string name="fa_icon_google_plus_sign">&#xf0d4;</string>
+    <string name="fa_icon_check_sign">&#xf14a;</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPassword">Password</string>
+    <string name="reg">Register</string>
+    <string name="log">Log In</string>
+    <string name="news">News</string>
+    <string name="acc">Account</string>
+    <string name="logo">Log Out</string>
+    <string name="guid">Guides</string>
+    <string name="rule">Rules</string>
+    <string name="home">Home</string>
+    <string name="test">Tests</string>
+
+    <string name="hello_blank_fragment">- Don\'t forget to log out from your Account. This way you are preventing a breach on your Account info!\n- Never save your passwords on your browser! </string>
+    <string name="title_activity_guide_overview">GuideOverviewActivity</string>
+</resources>

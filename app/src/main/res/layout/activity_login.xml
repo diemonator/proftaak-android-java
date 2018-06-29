@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.matah.sligro_app.LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_sligro_logo"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="@string/app_name" />
+
+    <EditText
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/hintEmail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/hintPassword"
+            android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRegisterClick"
+            android:text="@string/reg"
+            android:layout_margin="5dp"
+            tools:ignore="ButtonStyle"
+            style="@style/buttons"/>
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/button2"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/button"
+            style="@style/buttons"
+            android:onClick="onLoginClick"
+            android:text="@string/log"
+            tools:ignore="ButtonStyle"
+            android:layout_toEndOf="@+id/button" />
+    </RelativeLayout>
+
+</LinearLayout>
+
